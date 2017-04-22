@@ -32,7 +32,7 @@ Now that we can pull data from the above mock endpoints, we can start creating a
 
 - Import the `HTTPConnection` module, and use it to make a request to the above URLs.
 - When you can successfully make a request and print the raw response as a string, use the `json` module to decode that into a native python data type (as in `list` and `dict`).
-- Now we figured out how to represent the data to something meaningful, create a client class called `APIClient` to encapsulate the logic for making remote calls.
+- Now we figured out how to represent the data to something meaningful, create a client class called `UsersClient` to encapsulate the logic for making remote calls.
 - Finally, instead of having the data represented as native Python data types, lets create a `User` class to encapsulate the returned data from the API.
 
 ## Step 3 - Build a server
