@@ -92,7 +92,7 @@ $ brew install python3
  If you run into linking issues, run:
 
  ```bash
- brew link --overwrite python3
+ $ brew link --overwrite python3
  ```
 
 #### Windows
