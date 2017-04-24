@@ -1,13 +1,40 @@
 # DIT Python Lecture
 
-This lecture will aim to cover some very basic [REST](https://en.wikipedia.org/wiki/Representational_state_transfer) principles while also introducing us to the Python programming language. We will be creating a simple client and server in python, but before we begin, ensure [Python 3.6.1](https://www.python.org/downloads/) is installed on your system. Verify by running the following command in your terminal:
+This lecture will aim to cover some very basic [REST](https://en.wikipedia.org/wiki/Representational_state_transfer) principles while also introducing us to the Python programming language.
+
+But first...
+
+#### Who/what uses Python:
+- Script writing and automation
+- Backend development in:
+    - Instagram
+    - Dropbox
+    - Quora
+- Data science and machine learning
+    - [Seaborn](https://seaborn.pydata.org/)
+    - [Matplotlib](https://matplotlib.org/)
+- Internet of Things (IoT)
+    - Go to language for many Raspberry Pi projects
+
+#### Some Language Properties:
+- Interpreted, not compiled
+- Dynamically typed
+- Easy to read syntax
+- High level language
+- Free and open source
+- Object orientated
+- Huge range of third party libraries
+
+#### Lets begin:
+
+We will be creating a simple client and server in python, but before we begin, ensure [Python 3.6.1](https://www.python.org/downloads/) is installed on your system. Verify by running the following command in your terminal:
 
 ```bash
 $ python -V
 Python 3.6.1
 ```
 
-Sometimes you may need to explicity say you are using Python 3, so if the above command returns `Python 2.7.x` you may need to run as:
+Sometimes you may need to explicitly say you are using Python 3, so if the above command returns `Python 2.7.x` you may need to run as:
 
 ```bash
 $ python3 -V
